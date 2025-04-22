@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[WebMarket perfumes Mobile.pdf](https://github.com/user-attachments/files/19853119/WebMarket.perfumes.Loran.Mobile.pdf)
+
+[Webmarket perfumes.pdf](https://github.com/user-attachments/files/19853121/Webmarket.perfumes.Loran.pdf)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
