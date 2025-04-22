@@ -1,0 +1,103 @@
+.fs-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .fs-title {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  .fs-section {
+    margin-bottom: 16px;
+  }
+  .fs-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #555;
+  }
+  .fs-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .fs-input--small {
+    width: 80px;
+  }
+  .fs-range {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .fs-range-sep {
+    font-size: 1rem;
+    color: #888;
+  }
+  .fs-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .fs-tag {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #f9f9f9;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: #555;
+    transition: background 0.2s;
+  }
+  .fs-tag--active {
+    background: #ff6600;
+    color: #fff;
+    border-color: #ff6600;
+  }
+  .fs-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  .fs-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+  }
+  .fs-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .fs-btn--apply {
+    background: #ff6600;
+    color: #fff;
+  }
+  .fs-btn--clear {
+    background: #eee;
+    color: #333;
+  }
+  
+/* Responsividade Sidebar */
+@media (max-width: 768px) {
+    .fs-container {
+      padding: 12px;
+    }
+    .fs-tags {
+      gap: 6px;
+    }
+    .fs-actions {
+      flex-direction: column;
+    }
+    .fs-btn {
+      width: 100%;
+    }
+  }
+  
